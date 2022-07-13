@@ -1,0 +1,48 @@
+.bg-color {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.bg-whiteColor {
+  background-color: #ffffff;
+  padding: 17px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 25px;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 16px;
+}
+li {
+  margin: 30px;
+}
+
+p {
+  color: #1e293b;
+  font-weight: 600;
+}
+
+button {
+  background-color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
